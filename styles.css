@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-
+    font-size: x-large;
 }
 body{
     display: flex;
@@ -8,7 +8,7 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
-   background-color: #1E0555; 
+    background-color: #1E0555; 
 }
 
 body, .quote-input {
@@ -36,6 +36,7 @@ body, .quote-input {
     margin-bottom: 1rem;
     margin-left: calc(1rem + 2px);
     margin-right: calc(1rem + 2px);
+    cursor: default;
 }
 
 .quote-input{
